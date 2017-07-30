@@ -27,6 +27,12 @@
 		   .table tr {
 			   text-align: left;
 		   }
+		   .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
 .faded-teal .card-top:before, .faded-teal:before {
 	background-color: #000000 !important;
 	opacity: .6 !important;
@@ -268,7 +274,7 @@
     <thead>
       <tr>
         <th>Promo Code</th>
-        <th>Expiration</th>
+        <th>Exp. Date</th>
         <th>&nbsp;</th>
       </tr>
     </thead>
